@@ -58,10 +58,6 @@ body {
     margin: 0 0 36px 0 !important;
 }
 
-.title-laptop p {
-    padding: 0 16px;
-}
-
 .images {
     display: grid;
     grid-gap: 36px;
@@ -99,5 +95,8 @@ body {
     }
     .image-item img:hover {
         transform: scale(1.05);
+    }
+    .title-laptop p {
+        padding: 0 16px;
     }
 }
