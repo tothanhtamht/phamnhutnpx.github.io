@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <title>NPX-webmine</title>
+</head>
+
+<body>
+    <!-- Frame web mine
+    1. Head
+        - menu
+    2. Content
+        - slide
+        - about me
+        - services
+        - contact me
+    3. Footer -->
+
+    <section>
+        <nav>
+            <!-- logo -->
+            <a href="#"><img src="./images/logo-web-phamnhut-01.png" alt="" class="logo"></a>
+            <!-- menu -->
+            <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">Team</a></li>
+            </ul>
+
+        </nav>
+        <!--bars--------------->
+        <!-- <div class="toggle"></div> -->
+        <!--text----------------------->
+        <div class="text-container">
+            <p>Hello,</p>
+            <p>I&#8217;M PHAMNHUT</p>
+            <p> Front end Devolper</p>
+            <button class="hire-btn">Hire me</button>
+            <button class="down-cv">Download CV</button>
+        </div>
+        <!--model---------------------->
+        <img alt="model" class="model" src="images/model.png">
+    </section>
+    <div class="about-container">
+        <!--img-->
+        <img src="images/about-img.png" />
+        <!--about-me-text-->
+        <div class="about-text">
+            <p>About Me</p>
+            <p>Front end Devolper</p>
+            <p>Hello,My name is Pham Nhut. I am a Devolper.If you have asany Project or if you want make a software for your bisnes conatact me.I make as soon as possibale.You really like my work,if you don&#8217;t i change this until you like I give you
+                seticfaction result.</p>
+            <p>I am a Devolper and also a Designer.If you have asany Project or if you want make a software for your bussniess conatact me.I make your project as soon as possible.</p>
+            <button>Hire Me</button>
+            <button>Download CV</button>
+        </div>
+    </div>
+    <!--services-container---------------------------->
+    <div class="services ">
+        <!--text-->
+        <div class="services-text ">
+            <p>Services</p>
+            <p>Qualites Requaid</p>
+            <p>if you want make a software for your bussniess conatact me.I make as soon as possibale.You really like my work, if you don&#8217;t i change this until you like if you want make a software for your bussniess conatact me.I make as soon</p>
+        </div>
+        <div class="box-container">
+            <!--1------------->
+            <div class="box-1">
+                <span>1</span>
+                <p class="heading">Web Design</p>
+                <p class="details">if you want make a software for your bussniess conatact me.I make as soon as possibale.You really like my work, if you don&#8217;t i change this until you like if you want.</p>
+                <button>Read More</button>
+            </div>
+            <!--2------------->
+            <div class="box-2">
+                <span>2</span>
+                <p class="heading">Web Devoloment</p>
+                <p class="details">if you want make a software for your bussniess conatact me.I make as soon as possibale.You really like my work, if you don&#8217;t i change this until you like if you want.</p>
+                <button>Read More</button>
+            </div>
+            <!--3------------->
+            <div class="box-3">
+                <span>3</span>
+                <p class="heading">Security SEO</p>
+                <p class="details">if you want make a software for your bussniess conatact me.I make as soon as possibale.You really like my work, if you don&#8217;t i change this until you like if you want.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+    <!--if you have any project in your mind contact me-->
+    <div id="contact" class="contact-me">
+        <p>If You Have Any Project In Your Mind ?</p>
+        <button>Contact me</button>
+    </div>
+    <!-- footer----------------- -->
+    <footer>
+        <div class="social-icon">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+            <a href=""><i class="fab fa-github"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>Copyright by Pham Nhut Official</p>
+    </footer>
+    <!--social-attach-bar-->
+    <div class="social">
+        <a href=""><i class="fab fa-facebook-f"></i></a>
+        <a href=""><i class="fab fa-youtube"></i></a>
+        <a href=""><i class="fab fa-github"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+    </div>
+    <!--JQUery-------------------->
+    <script type="text/javascript" src="js/JQuery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.toggle').click(function() {
+                $('.toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+        })
+    </script>
+</body>
+
+</html>
