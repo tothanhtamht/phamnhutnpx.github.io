@@ -159,7 +159,7 @@
         width: 500px;
     }
     
-    .about-text span {
+    .about-text p:nth-child(1) {
         color: #403e3e;
         font-family: myriad pro;
         font-weight: bold;
