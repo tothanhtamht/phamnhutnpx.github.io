@@ -1,0 +1,41 @@
+@media (min-width:1024px) {}
+
+@media (min-width:740px) and (max-width:1024px) {}
+
+@media (max-width:740px) {
+    #header {
+        overflow: hidden;
+    }
+    #nav,
+    #nav li a,
+    #nav li {
+        width: 100%;
+        display: block;
+    }
+    #nav li a {
+        color: #fff;
+    }
+    #nav li #sub-nav {
+        position: initial;
+    }
+    #nav>li:first-child {
+        width: auto;
+        display: inline-block;
+    }
+    #nav li:hover #sub-nav {
+        background-color: #080808;
+    }
+    #nav #sub-nav a {
+        left: 20px;
+    }
+    .search-btn {
+        display: none;
+    }
+    .menu-mobile-btn {
+        display: block;
+    }
+    .menu-mobile-btn:hover {
+        color: #000;
+        background-color: #fff;
+    }
+}
