@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframe</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+        
+        .container,
+        .box {
+            margin-left: 50%;
+            transform: translate(-50%);
+            border-radius: 50px;
+            height: 50px;
+        }
+        
+        .container {
+            width: 50%;
+            background-color: black;
+        }
+        
+        .box {
+            font-size: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            background-color: yellow;
+            box-shadow: 0 0 10px;
+            animation-name: box-dynamic;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        
+        .box::after {
+            content: "";
+            background-color: rgb(194, 10, 10);
+            animation-name: box-dynamic2;
+        }
+        
+        @keyframes box-dynamic {
+            from {
+                width: 0px;
+            }
+            to {
+                width: 100%;
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">></div>
+    </div>
+</body>
+
+</html>
