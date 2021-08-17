@@ -75,7 +75,7 @@
 
 <body>
 
-    <form class="box" action="./love/" method="post">
+    <form class="box" action="./love" method="post">
         <h1>LOGIN</h1>
         <input type="text" placeholder="usename">
         <input type="password" placeholder="password">
